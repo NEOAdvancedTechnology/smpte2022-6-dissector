@@ -11,6 +11,15 @@
 -- 5) "Decode As" those UDP packets as RTP
 -- 6) You will now see the SMPTE 2022-6 Data dissection of the RTP payload
 --
+-- This program is free software; you can redistribute it and/or
+-- modify it under the terms of the GNU General Public License
+-- as published by the Free Software Foundation; either version 2
+-- of the License, or (at your option) any later version.
+--
+-- This program is distributed in the hope that it will be useful,
+-- but WITHOUT ANY WARRANTY; without even the implied warranty of
+-- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+-- GNU General Public License for more details.
 ------------------------------------------------------------------------------------------------  
 do  
     local smpte_2022_6 = Proto("smpte_2022_6", "SMPTE 2022-6")  
