@@ -11,7 +11,7 @@ to use in Wireshark:
    and Global plugin directories.  After putting this dissector in the proper folder, "About Wireshark/Plugins"
    should list "SMPTE-2022-6.lua" 
 
-3) In Wireshark Preferences, under "Protocols", set SMPTE_2022_6 as dynamic payload type 98
+3) In Wireshark Preferences, under "Protocols/SMPTE_2022_6", set dynamic payload type to 98
 
 4) Capture packets of SMPTE 2022-6
 
